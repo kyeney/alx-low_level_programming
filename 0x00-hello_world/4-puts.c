@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints a given phrase
+ * main - prints exactly the given phrase
  * return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
