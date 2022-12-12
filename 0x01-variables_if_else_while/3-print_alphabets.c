@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet in lovercase and then uppercase
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
@@ -8,18 +8,18 @@
 int main(void)
 {
 	char c;
-	
+
 	char d;
-	
+
 	c = 'a';
 	d = 'A';
 	while
 		(c <= 'z') {
-			putchar (c);
+			putchar(c);
 			c++;
 		}
 	while
-		(d <= 'z') {
+		(d <= 'Z') {
 			putchar(d);
 			d++;
 		}
