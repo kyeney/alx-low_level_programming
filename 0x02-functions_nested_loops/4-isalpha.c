@@ -5,11 +5,11 @@
  * Return: Always 1 if character is a letter, 0 otherwise.
  */
 
-int _isalpha(int)
+int _isalpha(int c)
 {
-	if (a - z)
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
-	else if (A - Z)
+	else
 		return (0);
 	return (0);
 }
