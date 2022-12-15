@@ -2,6 +2,7 @@
 /**
  * _isapha - checks for alphabetic character.
  * @c: character to be checked
+ *
  * Return: Always 1 if character is a letter, 0 otherwise.
  */
 
