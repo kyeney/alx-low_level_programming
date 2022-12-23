@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _strncat - appends the src string to the dest string.
+ *_strcat - Concatenates the string pointed to by @src, including the x
+ * null byte, to the end of the string pointed to by @dest.
  * @dest: The string to be appended upon.
  * @src: The string to be appended to dest.
  *
